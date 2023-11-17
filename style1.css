@@ -1,0 +1,81 @@
+header{
+    background-color: rgb(87, 87, 132);
+    color:aliceblue;
+    border-style: double;
+    border-color: cyan;
+    height:50px;
+    width:1450px;
+    display:flex;
+    flex-direction: row;
+    
+    position:fixed;
+}
+#navbar{
+    color:azure;
+    text-decoration: solid;
+}
+a{
+    margin-right: 200px;
+    width: 100px;
+}
+#logo{
+    color:darkorange;
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("librarypic.jpg");
+    background-size: cover;
+}
+#student{
+    width:350px;
+    height:200px;
+    background-color: rgb(196, 246, 255);
+    color:rgb(17, 18, 18);
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 50px;
+   
+}
+#admin{
+    width:350px;
+    height:200px;
+    background-color:palegreen;
+    color:black;
+    position: relative;
+   margin-left: 50px;
+}
+#trans{
+    margin-top: 300px;
+    margin-left: 400px;
+   font-size: larger;
+    width:250px; height:200px;
+    
+    color:rgb(237, 244, 244);
+    font-weight: 200;
+    text-size-adjust: 2;
+    text-decoration:underline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    height:20px;
+    background-color: red;
+    color:wheat;
+    text-align: center;
+    margin-top: 550px;
+}
+#box{
+
+    display:flex;
+    flex-direction: row;
+    display: inline;
+    position:fixed;
+    right:10px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    
+}
